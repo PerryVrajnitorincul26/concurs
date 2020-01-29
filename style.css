@@ -1,13 +1,16 @@
-.nav-links {
-  left: 80%;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
 }
-header.quo {
-  color: #000066;
-  background-color: rgb(255, 255, 255);
-  text-align: left;
-  border-style: inset;
+
+h1.titlu{
+    color: black ;
+    text-align: center;
+
 }
-}
+
 ul{
 	float:left;
 	list-style-type: none;
@@ -37,22 +40,87 @@ ul li.nav-link a{
 	background-color: #000 ;
 	color: #fff;
 }
-p.titlu{
-    color : black;
-    align: center;
-}
 
-div.card.jpg{
-    align: left;
-    width:70%
-}
 body{
-    
+    background-color: white;
 	font-family: 'Poppins', sans-serif;
 }
-header{
-background-color:yellow;
-height:150vh;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+.pendul2{
+    height="500" width="300";
+    float:left;
+    margin-top: 30px;
+    margin-left: right;
+    border: 1px black;
 }
+.buton{
+    background-color:black;
+    color: white;
+    font-size: medium;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+.butonjoc{
+    background-color:black;
+    color: white;
+    font-size: medium;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+.dublupoza{
+    width: 350px;
+    margin-top:6%;
+    align:left;
+    margin-left:-24%;
+}
+.dublupoza2{
+    width: 250px;
+    margin-top:6%;
+    align:left;
+    margin-left:0.5%;
+}
+.quo {
+    color: rgb(255, 251, 23);
+    background-color:rgb(0, 0, 0);
+    text-align: left;
+    border-style: inset;
+    line-height: 0.9;
+    font-size: larger;
+    margin-top: -0%;
+
+  }
+  .divquo {
+    width: 1300px;
+    border: 15px solid rgb(222, 245, 13);
+    padding: 30px;
+    margin: 20px;
+    align: center;
+  }
+  .finaljos{
+      color: black;
+      margin-left: 43%;
+
+  }
+  .divquofinal {
+    
+    border: 5px solid rgb(0, 0, 0);
+    margin: 3px;
+    align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+  .titlufinal{
+      color: black;
+      margin-top: -0%;
+      margin-left: 50%;
+      size: 30px;
+
+  }
+  .divquofinalsimplu {
+    
+    border: 5px solid rgb(0, 0, 0);
+    margin: 3px;
+    align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top:40%;
+  }
