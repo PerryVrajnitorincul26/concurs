@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pendul Dublu</title>
+    <link rel="stylesheet" href="css/pendul.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <form id="set_variables_form">
+        <label for="mass1">Mass1:</label>
+        <input id="mass1" max="50" min="1" type="range" value="10">
+        <label for="mass2">Mass2:</label>
+        <input id="mass2" max="50" min="1" type="range" value="10">
+        <label for="Phi1">Phi1 (in deg):</label>
+        <input id="Phi1" max="90" min="0" type="range" value="50">
+        <label for="Phi2">Phi2 (in deg):</label>
+        <input id="Phi2" max="90" min="0" type="range" value="65">
+        <input class="submit-btn" type="submit" value="Start Simulation">
+      </form>
+      <canvas id="myCanvas" height="600" width="700">
+      </canvas>
+    </div>
+
+    <script src="js/pendul-dublu.js">
+    </script>
+  </body>
+</html>
